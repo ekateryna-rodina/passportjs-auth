@@ -1,0 +1,41 @@
+{
+  "name": "ipfs_file_loader",
+  "version": "1.0.0",
+  "description": "This is a boilerplate for user auth",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ekateryna-rodina/ipfs_video_manager.git"
+  },
+  "keywords": [
+    "short",
+    "videos",
+    "peer-to-peer"
+  ],
+  "author": "Kateryna Rodina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ekateryna-rodina/ipfs_video_manager/issues"
+  },
+  "homepage": "https://github.com/ekateryna-rodina/ipfs_video_manager#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.11.8",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
